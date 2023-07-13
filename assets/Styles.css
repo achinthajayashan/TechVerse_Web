@@ -120,7 +120,7 @@ header>i:hover{
     text-decoration: none;
 }
 
-main>section:nth-child(1){
+#HomePage>section:nth-child(1){
     position: relative;
     width: 100vw;
     height: 90vh;
@@ -128,7 +128,7 @@ main>section:nth-child(1){
     flex-direction: row;
 }
 
-main>section:nth-child(1)>h2:nth-child(1){
+#HomePage>section:nth-child(1)>h2:nth-child(1){
     mso-text-animation: ants-red;
     position: absolute;
     font-size: 40px;
@@ -141,35 +141,35 @@ z-index: 0;
 
 }
 
-main>section:nth-child(1)>div:nth-child(2){
+#HomePage>section:nth-child(1)>div:nth-child(2){
     margin-top: 250px;
     margin-left: 200px;
 }
-main>section:nth-child(1)>div:nth-child(2)>h5{
+#HomePage>section:nth-child(1)>div:nth-child(2)>h5{
     font-size: 15px;
 }
-main>section:nth-child(1)>div:nth-child(2)>h3{
+#HomePage>section:nth-child(1)>div:nth-child(2)>h3{
     font-size: 40px;
     margin-top: 15px;
     color:
             #d13e40;
 }
 
-main>section:nth-child(1)>div:nth-child(2)>h1{
+#HomePage>section:nth-child(1)>div:nth-child(2)>h1{
     font-size: 60px;
     margin-top: 15px;
 }
 
-main>section:nth-child(1)>div:nth-child(2)>p{
+#HomePage>section:nth-child(1)>div:nth-child(2)>p{
     font-size: 15px;
     color: gray;
 }
-main>section:nth-child(1)>div:nth-child(3){
+#HomePage>section:nth-child(1)>div:nth-child(3){
     margin-top: 80px;
     margin-left:120px;
 }
 
-main>section:nth-child(1)>div:nth-child(3)>img{
+#HomePage>section:nth-child(1)>div:nth-child(3)>img{
     margin-left:100px;
     z-index: 0;
     animation: imgFirst infinite;
@@ -188,7 +188,7 @@ main>section:nth-child(1)>div:nth-child(3)>img{
     }
 }
 
-main>section:nth-child(1)>div:nth-child(3)>div{
+#HomePage>section:nth-child(1)>div:nth-child(3)>div{
     background-color: white;
     color: lightgrey;
     width: 120px;
@@ -217,18 +217,18 @@ main>section:nth-child(1)>div:nth-child(3)>div{
     }
 }
 
-main>section:nth-child(1)>div:nth-child(3)>div:hover{
+#HomePage>section:nth-child(1)>div:nth-child(3)>div:hover{
     color:
             #d13e40;
 }
 
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(2){
+#HomePage>section:nth-child(1)>div:nth-child(3)>div:nth-child(2){
     top: 230px;
     left: 1370px;
     padding-left: 30px;
 
 }
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(3){
+#HomePage>section:nth-child(1)>div:nth-child(3)>div:nth-child(3){
     top: 430px;
     left: 1370px;
     padding-left: 30px;
@@ -547,7 +547,74 @@ display: flex;
 }
 
 #homeViewPlans>h2{
+    margin-top: 35px;
     color: white;
+    margin-left: 40%;
+}
+
+#homeViewPlans>button{
+    background-color: #d13e40;
+    color: white;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#homeContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#homeContact>div{
+    text-align: center;
+}
+
+.c-icon{
+    color: #d13e40;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#homeContact>div>p{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+#homeContact>div>h4{
+    font-size: 18px;
+}
+
+#socialIcons1{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+footer{
+    border-top: 1px solid gray;
+    display: flex;
+}
+
+footer>p:nth-child(1){
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-size: 13px;
+}
+
+footer>p:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60%;
+    font-size: 13px;
 }
 /*main>section:nth-child(1)>div:nth-child(3)>div:nth-child(5){*/
 /*    top: 230px;*/

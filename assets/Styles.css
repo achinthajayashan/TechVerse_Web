@@ -372,6 +372,7 @@ main>section:nth-child(2)>p{
 
 #whychooseUs>h2{
     padding-top: 50px;
+    font-size: 22px;
 }
 
 #innerChoose{
@@ -379,22 +380,174 @@ main>section:nth-child(2)>p{
     width: 100vw;
 display: flex;
     flex-direction: row;
-    align-content: space-evenly;
-    font-size: 60px;
+    align-content: center;
+    justify-content: center;
+    font-size: 40px;
 }
 
 #innerChoose h4{
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #innerChoose>div{
-    width:25vw;
-    border-right: 2px solid white;
+    width:20vw;
+    border-right: 1px solid white;
 }
 
 #innerChoose>div:last-child{
     border-right: none;
+}
+
+#whatDoneHome>h2{
+    color: black;
+    /*height: 40vh;*/
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+#whatDoneHome>p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#showCase{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#showCase>div{
+    width: 25%;
+    height: 450px;
+    background-image: url("d3bw.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#showCase>div>p{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-top: 380px;
+}
+
+#showCase>div:hover{
+    background-color: #d13e40;
+    color: white;
+    margin-top: -20px;
+    transition-duration: 0.5s;
+}
+
+#showCase>div:hover{
+    background-image: url("d3.png");
+}
+
+#showCase>div:nth-child(2){
+    background-image: url("d5bw.png");
+}
+
+#showCase>div:nth-child(2):hover{
+    background-image: url("d5.png");
+}
+
+#showCase>div:nth-child(3){
+    background-image: url("d6bw.png");
+}
+
+#showCase>div:nth-child(3):hover{
+    background-image: url("d6.png");
+}
+
+#showCase>div:nth-child(4){
+    background-image: url("d4bw.png");
+}
+
+#showCase>div:nth-child(4):hover{
+    background-image: url("d4.png");
+}
+
+#testimonals{
+    height: 400px;
+    text-align: center;
+}
+
+#testimonals>h2{
+    margin-top: 120px;
+}
+
+#testimonals>div:nth-child(3){
+    width: 40vw;
+    color: gray;
+    margin-left: 30%;
+    margin-top: 80px;
+}
+
+#testimonals>div:nth-child(3)>p{
+    text-align: center;
+    line-height: 25px;
+}
+
+#testimonals>div:nth-child(3)>h5{
+    text-align: center;
+    color: #d13e40;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#testimonals>div:nth-child(4){
+    width: 40vw;
+    color: gray;
+    margin-left: 30%;
+    margin-top: 80px;
+}
+
+#testimonals>div:nth-child(4)>p{
+    text-align: center;
+    line-height: 25px;
+}
+
+#testimonals>div:nth-child(4)>h5{
+    text-align: center;
+    color: #d13e40;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#testimonals>div:nth-child(5){
+    width: 40vw;
+    color: gray;
+    margin-left: 30%;
+    margin-top: 80px;
+}
+
+#testimonals>div:nth-child(5)>p{
+    text-align: center;
+    line-height: 25px;
+}
+
+#testimonals>div:nth-child(5)>h5{
+    text-align: center;
+    color: #d13e40;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#homeViewPlans{
+    height: 100px;
+    background-color: black;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+#homeViewPlans>h2{
+    color: white;
 }
 /*main>section:nth-child(1)>div:nth-child(3)>div:nth-child(5){*/
 /*    top: 230px;*/

@@ -1,6 +1,5 @@
 *{
     font-family: 'Inter', sans-serif;
-    cursor: default;
     margin: 0;
     transition-duration: 0.5s;
 
@@ -307,8 +306,11 @@ z-index: 0;
     line-height: 25px;
 
 }
-
-#servicesHome>div>h4{
+#servicesHome>div>a{
+    text-decoration: none;
+    color: black;
+}
+#servicesHome>div>a>h4{
     margin-top: 30px;
     font-size: 16px;
 }
@@ -363,7 +365,6 @@ z-index: 0;
 .button1:hover{
     background-color: white;
     color: #d13e40;
-    cursor: cell;
 }
 
 #whychooseUs{
@@ -556,7 +557,7 @@ display: flex;
     margin-left: 40%;
 }
 
-#homeViewPlans>button{
+#homeViewPlans>a>button{
     background-color: #d13e40;
     color: white;
     height: 40px;
@@ -585,14 +586,30 @@ display: flex;
     font-size: 40px;
     margin-bottom: 30px;
 }
+.homeContact>div>a{
+    text-decoration: none;
+    color: black;
+}
+.homeContact>div>a>p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: black;
+}
 
 .homeContact>div>p{
     margin-bottom: 15px;
     font-size: 15px;
+    color: black;
+}
+
+.homeContact>div>a>h4{
+    font-size: 18px;
+    color: black;
 }
 
 .homeContact>div>h4{
     font-size: 18px;
+    color: black;
 }
 
 #socialIcons1{
@@ -829,6 +846,36 @@ footer>p:nth-child(2){
     background-position: center;
 }
 
+#privacySec{
+    width: 80vw;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+#privacySec>h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#privacySec>h5{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#privacySec>p{
+    /*font-size: 20px;*/
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+#privacySec>ol>li{
+    /*font-size: 20px;*/
+
+    line-height: 25px;
+    margin-bottom: 20px;
+}
 
 /*main>section:nth-child(1)>div:nth-child(3)>div:nth-child(5){*/
 /*    top: 230px;*/

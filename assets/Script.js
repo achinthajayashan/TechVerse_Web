@@ -1,5 +1,5 @@
 $("#sideMenuSec").hide();
-$("#menuIcon ,#menuText").hide();
+// $("#menuIcon ,#menuText").hide();
 // $('#ServicesPage').hide();
 
 $("i").mouseenter(function (event) {
@@ -10,8 +10,14 @@ $("i").mouseleave(function (event) {
     $("#menuText").text("Menu")
 });
 
-$("i").click(function (event) {
+$("#menuIcon").click(function (event) {
     $("#sideMenuSec").show();
+
+
+});
+
+$(".fa-xmark").click(function (event) {
+    $("#sideMenuSec").hide();
 
 
 });

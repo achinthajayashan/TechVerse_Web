@@ -1,4 +1,4 @@
-$("#sideMenuSec").hide();
+ $("#sideMenuSec").hide();
 // $("#menuIcon ,#menuText").hide();
 // $('#ServicesPage').hide();
 

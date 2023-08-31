@@ -15,6 +15,7 @@
     visibility: hidden;
 }
 
+
 section{
     width: 100vw;
 }
@@ -925,7 +926,8 @@ footer>p:nth-child(2){
         top: 0;
         left: 0;
         margin-bottom: 5px;
-        width: 400px;
+        width: 500px;
+        /*padding-right: 50px;*/
 
     }
 
@@ -939,7 +941,7 @@ footer>p:nth-child(2){
         margin-top: 20px;
         position: relative;
         top: 0;
-        right: 10px;
+        right: -100px;
     }
 
     #sideMenuSec{
@@ -981,7 +983,7 @@ footer>p:nth-child(2){
     #HomePage>section:nth-child(1){
         position: relative;
         width: 100vw;
-        height: 90vh;
+        /*height: 90vh;*/
         display: flex;
         flex-direction: column;
     }
@@ -1005,7 +1007,7 @@ footer>p:nth-child(2){
     #HomePage>section:nth-child(1)>div:nth-child(2)>h1{
         font-size: 40px;
         margin-top: 15px;
-        height: 100px;
+        /*height: 100px;*/
     }
 
     #HomePage>section:nth-child(1)>div:nth-child(2)>p{
@@ -1016,6 +1018,7 @@ footer>p:nth-child(2){
     #HomePage>section:nth-child(1)>div:nth-child(3){
         margin-top: 0px;
         margin-left:0px;
+        /*height: 600px;*/
     }
 
     #HomePage>section:nth-child(1)>div:nth-child(3)>img{
@@ -1663,3 +1666,4 @@ footer>p:nth-child(2){
         padding: 10px;
     }
 }
+
